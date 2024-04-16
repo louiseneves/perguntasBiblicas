@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "perguntasBiblicas",
+    "name": "Perguntas Bíblicas",
     "slug": "perguntasBiblicas",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/ic_pergunta.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/ic_pergunta.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -18,13 +18,16 @@
       "supportsTablet": true
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+      "package": "com.perguntas.jogo",
+      "versionCode": 7
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6e2e7531-a173-4790-a9a3-de1304112d15"
+      }
     }
   }
 }
